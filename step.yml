@@ -7,7 +7,7 @@ description: |-
   
   ### Configuring the Step
   
-  1. The Public Install page's URL is automatically assigned, but you can modify the URL as you wish.
+  1. The Public Install page's URL is automatically assigned, but you can modify this value as you wish.
   2. You can modify the size of the QR code. By default it is 150x150 pixels. 
   
   ### Troubleshooting
