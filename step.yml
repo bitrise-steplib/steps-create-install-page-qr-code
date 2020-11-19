@@ -1,7 +1,26 @@
 
-title: Create install page QR code
-summary: Generates an URL for a QR code which points to the install page.
-description: Generates an URL for a QR code which points to the install page.
+title: "Create install page QR code"
+summary: |-
+  Generates a QR code which points to the public install page.
+description: |-
+  The step generates a QR code from a URL using the GoQR API. 
+  
+  ### Configuring the Step
+  
+  1. The Public Install page's URL is automatically assigned, but you can modify the URL as you wish.
+  2. You can modify the size of the QR code. By default it is 150x150 pixels. 
+  
+  ### Troubleshooting
+  
+  Make sure the step is placed after the **Deploy to Bitrise.io** step, otherwise the `$BITRISE_PUBLIC_INSTALL_PAGE_URL` variable won't be available.
+  This step can only create a QR code from a single link. If you want to generate multiple ones, you can add the ste
+  
+  ### Useful links
+ 
+  - [GoQR Documentation](http://goqr.me/api/)
+  
+  ### Related Steps
+  - [Deploy to Bitrise.io](https://www.bitrise.io/integrations/steps/deploy-to-bitrise-io)
 website: https://github.com/bitrise-steplib/steps-create-install-page-qr-code
 source_code_url: https://github.com/bitrise-steplib/steps-create-install-page-qr-code
 support_url: https://github.com/bitrise-steplib/steps-create-install-page-qr-code/issues
