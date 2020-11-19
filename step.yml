@@ -1,9 +1,9 @@
 
 title: "Create install page QR code"
 summary: |-
-  Generates a QR code which points to the public install page.
+  Generates a QR code which points to the Public Install page.
 description: |-
-  The step generates a QR code from a URL using the GoQR API. 
+  The Step generates a QR code from a URL using the GoQR API. 
   
   ### Configuring the Step
   
@@ -12,8 +12,8 @@ description: |-
   
   ### Troubleshooting
   
-  Make sure the step is placed after the **Deploy to Bitrise.io** step, otherwise the `$BITRISE_PUBLIC_INSTALL_PAGE_URL` variable won't be available.
-  This step can only create a QR code from a single link. If you want to generate multiple ones, you can add the ste
+  Make sure the Step is placed after the **Deploy to Bitrise.io** Step, otherwise the `$BITRISE_PUBLIC_INSTALL_PAGE_URL` variable won't be available.
+  This Step can only create a QR code from a single link. If you want to generate multiple ones, you can add the Step multiple times.
   
   ### Useful links
  
